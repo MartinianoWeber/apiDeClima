@@ -1,0 +1,102 @@
+.main{
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: auto;
+height: 100vh;
+}
+
+
+.flex{
+    display: flex;
+        h1{
+            margin: auto;
+            margin-top: 3rem;
+            font-size:3rem;
+            color: $blanco;
+        }
+}
+
+
+.main__buscadores{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 300px;
+            input{
+                font-size:2rem;
+                border: none;
+                outline: none;
+                text-align: center;
+            }
+        }
+        button{
+            background-color: #7f31d8;
+            outline:none;
+            border: solid 1px black;
+            padding:1rem;
+            transition: 1s;
+             &:hover{
+                border: solid 1px rgb(255, 196, 0); 
+                color: white;
+                transition: 1s;
+             }
+        }
+}
+
+.card {
+    width: 200px;
+    height: 260px;
+    background-color: #212121;
+    box-shadow: 15px 15px 30px #063a8a,
+                 -15px -15px 30px #292929;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+                 transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s; 
+    margin: auto;
+    margin-top: 5rem;
+        p{
+            color: white;
+            text-align: center;
+            
+        }
+   }
+   
+   .card:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+   }
+   
+
+
+   .flex__grados{
+       padding: .2rem;
+       font-size:4rem;
+   }
+.flex__card{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.p__card{
+    font-size:1.4rem;
+}
+
+.error{
+    background-color: black;
+    color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    padding: .7rem;
+    font-size:1.5rem;
+    border: 1px solid red;
+}

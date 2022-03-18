@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Clima api</title>
+</head>
+<body>
+    <main class="main">
+        <div class="flex">
+            <h1 class="subrayado">Busca el clima en tu ciudad</h1>
+        </div>
+        <div class="main__buscadores">
+            <form action="">
+                <input id="pais" placeholder="Pais" type="text">
+                <input id="ciudad" placeholder="Ciudad" type="text">
+                <button id="btnResultado">Ver clima</button>
+            </form>
+        </div>
+        <div id="error"></div>
+        <div id="resultados"></div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

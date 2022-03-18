@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Generales */
+    
+a {
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: $font-principal;
+    color: $negro;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+  }
+  
+
+
+
+/** Utilidades **/
+
+    .no-margin {
+        margin: 0;
+    }
+    
+    .no-padding {
+        padding: 0;
+    }
+    
+    .margin-auto{
+        margin: auto;
+    }
+
+    .centrar-texto {
+        text-align: center;
+    }
+    .subrayado {
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: $rojoLine;
+    
+    }
